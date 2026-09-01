@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "cd backend && npm install",
-    "start": "cd backend && npm run start"
+    "build": "cd backend && npm install && npm run build",
+    "start": "cd backend && node dist/server.js"
   },
   "engines": { "node": "20.x" }
 }
